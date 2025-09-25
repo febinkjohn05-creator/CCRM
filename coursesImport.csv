@@ -1,9 +1,10 @@
 code,title,credits,semester,department
-CS101,Introduction to Programming,3,FALL,Computer Science
-MATH201,Calculus I,4,FALL,Mathematics
-ENG101,English Composition,3,SPRING,English
-PHYS101,Physics I,4,SPRING,Physics
-HIST101,World History,3,SUMMER,History
-CS102,Data Structures,3,SPRING,Computer Science
-MATH202,Calculus II,4,SPRING,Mathematics
-``
+CSE1001,Introduction to Programming,3,FALL,Computer Science
+MAT2001,Calculus I,4,FALL,Mathematics
+ENG2005,Advanced Technical Communication,3,WINTER,English
+PHYS1001,Physics I,4,SPRING,Physics
+HIST1005,World History,3,SUMMER,History
+CS1002,Data Structures And Algorithms,3,FALL,Computer Science
+MATH2002,Calculus II,4,SPRING,Mathematics
+CSE3003,Database Management Systems,3,WINTER,Computer Science
+BIO1002,Biology I,4,FALL,Biology

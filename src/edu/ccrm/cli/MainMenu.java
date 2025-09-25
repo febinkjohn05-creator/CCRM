@@ -28,15 +28,14 @@ public class MainMenu  {
         boolean   exit =   false ;
 
         while  (!exit ) {
-            System.out.println(  "\n=== Campus Course & Records Manager ===") ;
-
-            System.out.println( "1. Student Management" )  ;
-
-            System.out.println( "2. Course Management" ) ;
-            System.out.println( "3. Enrollment & Grades" ) ;
-            System.out.println(  "4. File Operations" );
-            System.out.println("0. Exit"  ) ;
-            System.out.print( "Select : " )    ;
+            System.out.println("\n👋 Welcome to the Campus Course & Records Manager!");
+            System.out.println("What would you like to do today?");
+            System.out.println("1. Dive into Student Management");
+            System.out.println("2. Explore Course Management");
+            System.out.println("3. Handle Enrollment & Grades");
+            System.out.println("4. File Operations & Utilities");
+            System.out.println("0. Exit the program");
+            System.out.print("Enter your choice: ");
 
             int  choice =  scanner.nextInt()   ;
             scanner.nextLine() ;
@@ -59,7 +58,7 @@ public class MainMenu  {
             }
         }
 
-        System.out.println("Thank you for using CCRM!");
+    System.out.println("Thanks for using CCRM! Have a fantastic day ahead! 😊");
 
     }
 
@@ -72,18 +71,14 @@ public class MainMenu  {
 
 
 
-            System.out.println (  "\n-- Student Management --" )  ;
-
-            System.out.println ( "1. Add Student" ) ;
-
-            System.out.println (  "2. List Students"  ) ;
-            System.out.println (  "3. Update Student" ) ;
-
-            System.out.println  ( "4. Deactivate Student" ) ;
-            System.out.println (   "5. Print Student Profile" )   ;
-            System.out.println("0. Back");
-
-            System.out.print("Choose: ");
+            System.out.println("\n👤 Student Management Zone");
+            System.out.println("1. Add a new student");
+            System.out.println("2. See all students");
+            System.out.println("3. Update student info");
+            System.out.println("4. Deactivate a student");
+            System.out.println("5. Print a student profile");
+            System.out.println("0. Go back to main menu");
+            System.out.print("What would you like to do? ");
 
             int  ch     = scanner.nextInt();      scanner.nextLine()  ;
             switch (ch )  {
@@ -109,23 +104,15 @@ public class MainMenu  {
 
 
         while (true ) {
-            System.out.println("\n-- Course Management --"  )   ;
-
-            System.out.println("1. Add Course ");
-
-            System.out.println( "2. List Courses " );
-
-
-            System.out.println("3. Update Course")  ;
-
-            System.out.println  ("4. Deactivate Course")  ;
-
-            System.out.println ("5. Assign Instructor" )      ;
-            System.out.println  ( "6. Search/Filter Courses"  ) ;
-            System.out.println(   "0. Back" )  ;
-
-
-            System.out.print( "Choose: " )  ;
+            System.out.println("\n📚 Course Management Hub");
+            System.out.println("1. Add a new course");
+            System.out.println("2. List all courses");
+            System.out.println("3. Update course details");
+            System.out.println("4. Deactivate a course");
+            System.out.println("5. Assign an instructor");
+            System.out.println("6. Search or filter courses");
+            System.out.println("0. Return to main menu");
+            System.out.print("Pick an option: ");
 
 
 
@@ -164,19 +151,13 @@ public class MainMenu  {
 
 
         while (  true) {
-            System.out.println("\n-- Enrollment & Grades --")  ;
-
-
-            System.out.println("1. Enroll Student");
-
-            System.out.println("2. Unenroll Student"  ) ;
-
-
-            System.out.println("3. Record Grade");
-            System.out.println(   "4. Show Transcript");
-
-            System.out.println ("0. Back") ;
-            System.out.print  ("Choose: ");
+            System.out.println("\n📝 Enrollment & Grades Center");
+            System.out.println("1. Enroll a student in a course");
+            System.out.println("2. Unenroll a student");
+            System.out.println("3. Record a grade");
+            System.out.println("4. Show a student transcript");
+            System.out.println("0. Back to main menu");
+            System.out.print("Select your action: ");
             int ch = scanner.nextInt () ; scanner.nextLine   () ;
 
 
@@ -204,20 +185,15 @@ public class MainMenu  {
 
 
         while (true) {
-            System.out.println   ("\n-- File Utilities --"  ) ;
-            System.out.println("1. Import Students" ) ;
-
-            System.out.println( "2. Export Students"  );
-            System.out.println("3. Import Courses" );
-            System.out.println ("4. Export Courses");
-
-
-            System.out.println(  "5. Backup Data");
-
-            System.out.println (  "6. Show Backup Directory Size");
-            System.out.println ("0. Back") ;
-
-            System.out.print("Choose: ") ;
+            System.out.println("\n🗂️ File Utilities & Tools");
+            System.out.println("1. Import students from CSV");
+            System.out.println("2. Export students to CSV");
+            System.out.println("3. Import courses from CSV");
+            System.out.println("4. Export courses to CSV");
+            System.out.println("5. Backup all your data");
+            System.out.println("6. Show backup folder size");
+            System.out.println("0. Return to main menu");
+            System.out.print("Pick your utility: ");
             int ch = scanner.nextInt()   ; scanner.nextLine();
 
 
@@ -799,7 +775,6 @@ public class MainMenu  {
             System.out.println("Error: "+ex.getMessage());
 
 
-
         }
     }
 
@@ -807,9 +782,15 @@ public class MainMenu  {
 
 
         new MainMenu().run();
-
-
-
-
     }
 }
+
+
+
+
+
+
+
+
+
+
